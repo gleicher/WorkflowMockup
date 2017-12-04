@@ -1,0 +1,10 @@
+/* make the top boxes all the same size */
+.phase-overview-header {
+	height: 80px;	
+}
+.phase-overview-body {
+	height: 150px;	
+}
+.phase-overview-footer {
+	height: 100px;	
+}

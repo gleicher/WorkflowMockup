@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mike's Mockup</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="mock-1.css" rel="stylesheet" type="text/css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -16,16 +17,18 @@
 
 <body>
 <div class="container">
-  <div class="row" style="font-size: x-small">
+  <div class="row" style="font-size: x-small"><!-- phases summary -->
 	  <div class="col-lg-2 col-md-4 col-sm-6">
-	    <div class="panel panel-default">
-	    	<div class="panel-heading"><h4>Phase 1</h4>Define and Start</div>
-	    	<div class="panel-body" style="height:120px">
+	    <div class="panel panel-default phase-overview">
+	    	<div class="panel-heading phase-overview-header">
+	    		<h4 class="">Phase 1</h4>Define and Start
+			</div>
+	    	<div class="panel-body phase-overview-body">
 	    	  <p>Edit the problem definition,</p>
 	    	  <p>Provision the backends (TA2)</p>
 	    	  <p>Start the model builders </p>
 	    	</div>
-	    	<div class="panel-footer" style="height:100px">
+	    	<div class="panel-footer phase-overview-footer">
     	  		Status:<strong>Complete</strong><br/>
     	  		3 TA2s Provisioned<br/>
 	    		<button type="button" class="btn btn-success" style="font-size:small">Re-Examine Problem</button>
@@ -34,13 +37,15 @@
 	  </div>
 	  <div class="col-lg-2 col-md-4 col-sm-6">
 	    <div class="panel panel-default">
-	    	<div class="panel-heading"><h4>Phase 2</h4>Wait for the Models to Build</div>
-	    	<div class="panel-body" style="height:120px">
+	    	<div class="panel-heading phase-overview-header">
+	    		<h4>Phase 2</h4>Wait for the Models to Build
+			</div>
+	    	<div class="panel-body phase-overview-body">
 	    	  <p>Keep yourself busy why the TA2 backends do their work</p>
 	    	  <p>Examine the data</p>
 	    	  <p>Control the model building process (cut it off) </p>
 	    	</div>
-	    	<div class="panel-footer" style="height:100px">
+	    	<div class="panel-footer phase-overview-footer">
 	    		Status: <strong>solutions complete</strong><br/>
 				9 models built<br/>
 	    		<button type="button" class="btn btn-success" style="font-size:small">Revisit Statistics</button>
@@ -49,13 +54,15 @@
 	  </div>
 	  <div class="col-lg-2 col-md-4 col-sm-6">
 	    <div class="panel panel-primary">
-	    	<div class="panel-heading"><h4>Phase 3</h4>Overview Results</div>
-	    	<div class="panel-body" style="height:120px">
+	    	<div class="panel-heading phase-overview-header">
+	    		<h4>Phase 3</h4>Overview Results
+			</div>
+	    	<div class="panel-body phase-overview-body">
 	    	  <p>Examine a summary of the model results</p>
 	    	  <p>Get an overview of the performance of the models</p>
 	    	  <p>Select and refine a metric for selection </p>
 	    	</div>
-	    	<div class="panel-footer"  style="height:100px">
+	    	<div class="panel-footer phase-overview-footer">
 	    		Status: examining 9 models<br>
 	    		No metric selected<br/>
 	    		<button type="button" class="btn btn-primary" style="font-size:small">In Progress</button>
@@ -65,13 +72,15 @@
 	  </div>
 	  <div class="col-lg-2 col-md-4 col-sm-6">
 	    <div class="panel panel-default">
-	    	<div class="panel-heading"><h4>Phase 4</h4>Detailed Assessment</div>
-	    	<div class="panel-body" style="height:120px">
+	    	<div class="panel-heading phase-overview-header">
+	    		<h4>Phase 4</h4>Detailed Assessment
+			</div>
+	    	<div class="panel-body phase-overview-body">
 	    	  <p>Examine the model results in detail</p>
 	    	  <p>Compare specific models</p>
 	    	  <p>Select which models to use </p>
 	    	</div>
-	    	<div class="panel-footer"  style="height:100px">
+	    	<div class="panel-footer phase-overview-footer">
 	    		Status: waiting for metrics<br/>
 	    		No models selected<br/>
 	    		<button type="button" class="btn btn-primary"  style="font-size:small" disabled>Not Ready</button>
@@ -81,12 +90,14 @@
 	  </div>
 	  <div class="col-lg-2 col-md-4 col-sm-6">
 	    <div class="panel panel-default">
-	    	<div class="panel-heading"><h4>Phase 5</h4>Build and Package Result</div>
-	    	<div class="panel-body" style="height:120px">
+	    	<div class="panel-heading phase-overview-header">
+	    		<h4>Phase 5</h4>Build and Package Result
+			</div>
+	    	<div class="panel-body phase-overview-body">
 	    	  <p>Check that the selected models behave as expected</p>
 	    	  <p>Build an executable of the constructed models </p>
 	    	</div>
-	    	<div class="panel-footer" style="height:100px">
+	    	<div class="panel-footer phase-overview-footer">
 	    		Status: waiting model select<br/>
 	    		Not ready<br/>
 	    		<button type="button" class="btn btn-primary"  style="font-size:small" disabled>Review Result</button>
@@ -96,12 +107,14 @@
 	  </div>
 	  <div class="col-lg-2 col-md-4 col-sm-6">
 	    <div class="panel panel-default">
-	    	<div class="panel-heading"><h4>Skip and Ship!</h4>Just get it done!</div>
-	    	<div class="panel-body" style="height:120px">
+	    	<div class="panel-heading phase-overview-header">
+	    		<h4>Skip and Ship!</h4>Just get it done!
+			</div>
+	    	<div class="panel-body phase-overview-body">
 	    	  <p> Have the system guess at all remaining choices and get a result quickly. </p>
 	    	  <p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> Use if you don't care to get the best possible results. </p>
 	    	</div>
-	    	<div class="panel-footer" style="height:100px">
+	    	<div class="panel-footer phase-overview-footer">
     	  		Status: Available<br/>
     	  		Not recommended<br/>
 	    	  <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> Just Do It!</button>
@@ -109,6 +122,22 @@
 	    </div>
 	  </div>
   </div>
+  <div class="hidden"> <!-- div for all Phase 1 - for hiding -->
+	  <div class="row">	
+		<div class="lg-1">
+		  <div class="panel panel-default">
+			  <div class="panel-heading">
+				<h2 >Phase 1: Define Problem and Provision Solvers</h2><!-- not panel-title -->
+			</div>
+			  <div class="panel-body"> Panel content </div>
+			  <div class="panel-footer">Panel footer</div>
+		  </div><!-- Phase 1 Summary Panel -->
+		</div> 
+		<!-- phase 1 summary box -->
+	  </div> <!-- Row for Phase 1 Summary -->
+	  <div class="row">	
+	  </div> <!-- Row for Phase 1 Body -->
+  </div> <!-- Div for Phase 1 Hiding -->
 </div>
 </body>
 </html>
