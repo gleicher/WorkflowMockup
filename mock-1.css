@@ -1,9 +1,18 @@
 /* make the top boxes all the same size */
+.phase-panel-col {
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+.phase-overview {
+	padding: 0px;
+}
 .phase-overview-header {
 	height: 80px;	
 }
 .phase-overview-body {
-	height: 150px;	
+	height: 150px;
 }
 .phase-overview-footer {
 	height: 100px;	

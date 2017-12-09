@@ -18,7 +18,7 @@
 <body>
 <div class="container">
   <div class="row" style="font-size: x-small"><!-- phases summary -->
-	  <div class="col-lg-2 col-md-4 col-sm-6">
+	  <div class="col-lg-2 col-md-4 col-sm-6 phase-panel-col">
 	    <div class="panel panel-default phase-overview">
 	    	<div class="panel-heading phase-overview-header">
 	    		<h4 class="">Phase 1</h4>Define and Start
@@ -35,8 +35,8 @@
 	    	</div>
 	    </div>
 	  </div>
-	  <div class="col-lg-2 col-md-4 col-sm-6">
-	    <div class="panel panel-default">
+	  <div class="col-lg-2 col-md-4 col-sm-6 phase-panel-col">
+	    <div class="panel panel-default phase-overview">
 	    	<div class="panel-heading phase-overview-header">
 	    		<h4>Phase 2</h4>Wait for the Models to Build
 			</div>
@@ -52,8 +52,8 @@
 	    	</div>
 	    </div>
 	  </div>
-	  <div class="col-lg-2 col-md-4 col-sm-6">
-	    <div class="panel panel-primary">
+	  <div class="col-lg-2 col-md-4 col-sm-6 phase-panel-col">
+	    <div class="panel panel-primary phase-overview">
 	    	<div class="panel-heading phase-overview-header">
 	    		<h4>Phase 3</h4>Overview Results
 			</div>
@@ -70,8 +70,8 @@
 			</div>
 	    </div>
 	  </div>
-	  <div class="col-lg-2 col-md-4 col-sm-6">
-	    <div class="panel panel-default">
+	  <div class="col-lg-2 col-md-4 col-sm-6 phase-panel-col">
+	    <div class="panel panel-default phase-overview">
 	    	<div class="panel-heading phase-overview-header">
 	    		<h4>Phase 4</h4>Detailed Assessment
 			</div>
@@ -88,8 +88,8 @@
 			</div>
 	    </div>
 	  </div>
-	  <div class="col-lg-2 col-md-4 col-sm-6">
-	    <div class="panel panel-default">
+	  <div class="col-lg-2 col-md-4 col-sm-6 phase-panel-col">
+	    <div class="panel panel-default phase-overview">
 	    	<div class="panel-heading phase-overview-header">
 	    		<h4>Phase 5</h4>Build and Package Result
 			</div>
@@ -105,8 +105,8 @@
 	    	</div>
 	    </div>
 	  </div>
-	  <div class="col-lg-2 col-md-4 col-sm-6">
-	    <div class="panel panel-default">
+	  <div class="col-lg-2 col-md-4 col-sm-6 phase-panel-col">
+	    <div class="panel panel-default phase-overview">
 	    	<div class="panel-heading phase-overview-header">
 	    		<h4>Skip and Ship!</h4>Just get it done!
 			</div>
@@ -122,10 +122,10 @@
 	    </div>
 	  </div>
   </div>
-  <div class="hidden"> <!-- div for all Phase 1 - for hiding -->
+  <div> <!-- div for all Phase 1 - for hiding -->
 	  <div class="row">	
 		<div class="lg-1">
-		  <div class="panel panel-default">
+		  <div class="panel panel-default phase-overview">
 			  <div class="panel-heading">
 				<h2 >Phase 1: Define Problem and Provision Solvers</h2><!-- not panel-title -->
 			</div>
@@ -138,6 +138,18 @@
 	  <div class="row">	
 	  </div> <!-- Row for Phase 1 Body -->
   </div> <!-- Div for Phase 1 Hiding -->
+  <div class="row"><!-- for layout experiments -->
+  	<div class="lg-1">
+  	<ul class="list-group">
+  	  <li class="list-group-item">Default List Group item </li>
+  	  <li class="list-group-item"><span class="badge">New</span>List Group item 1 with badge</li>
+    </ul>
+    A normal list
+    <ul>
+    	<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Item 1</li>
+    	<li>Item 2</li>
+    </ul>
+  </div></div>
 </div>
 </body>
 </html>
