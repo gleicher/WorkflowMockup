@@ -71,3 +71,9 @@ Tasks have:
 + Preconditions (what do you need)
 + Suggested activities (things that might help you do what you need to)
 + Default choice (I don't know - pick for me)
++ Review/Redo (how catastrophic is it to "undo" once done)
++ Things provides (what 
+
+Activities have:
++ Preconditions (what needs to be in place)
++ 
