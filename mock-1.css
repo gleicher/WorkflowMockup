@@ -6,14 +6,17 @@
 	padding-bottom: 5px;
 }
 .phase-overview {
-	padding: 0px;
+	padding: 0px; /* this gets over-ridden, so we have to redo it */
 }
 .phase-overview-header {
+	padding:2px;
 	height: 80px;	
 }
 .phase-overview-body {
-	height: 150px;
+	padding:2px;
+	height: 120px;
 }
 .phase-overview-footer {
+	padding:2px;
 	height: 100px;	
 }
