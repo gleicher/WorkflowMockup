@@ -77,3 +77,14 @@ Tasks have:
 Activities have:
 + Preconditions (what needs to be in place)
 + 
+
+## Issues to build into the model
++ What are the states and preconditions/post-conditions
++ How do things get checked off? (do activities complete tasks, or are they independent)
++ Contamination Issues
+  - DARPA version (do we hold out things from the auto-learners? do we retrain them with the whole set?)
+  - Real version (how do we manage testing contanimation and keeping hold-out trult held out)
++ Integrating Loops
+  - Steering
+  - Hints and other information flows
+  
